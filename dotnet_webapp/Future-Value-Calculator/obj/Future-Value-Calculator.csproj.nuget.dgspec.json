@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/titrandiephuy/Desktop/CodeGym/Module 3 - .NET/Exercises/dotnet_webapp/Future-Value-Calculator/Future-Value-Calculator.csproj": {}
+  },
+  "projects": {
+    "/Users/titrandiephuy/Desktop/CodeGym/Module 3 - .NET/Exercises/dotnet_webapp/Future-Value-Calculator/Future-Value-Calculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/titrandiephuy/Desktop/CodeGym/Module 3 - .NET/Exercises/dotnet_webapp/Future-Value-Calculator/Future-Value-Calculator.csproj",
+        "projectName": "Future-Value-Calculator",
+        "projectPath": "/Users/titrandiephuy/Desktop/CodeGym/Module 3 - .NET/Exercises/dotnet_webapp/Future-Value-Calculator/Future-Value-Calculator.csproj",
+        "packagesPath": "/Users/titrandiephuy/.nuget/packages/",
+        "outputPath": "/Users/titrandiephuy/Desktop/CodeGym/Module 3 - .NET/Exercises/dotnet_webapp/Future-Value-Calculator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/titrandiephuy/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

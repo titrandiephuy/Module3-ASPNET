@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{D942FAEA-4003-4F81-B3AE-EDAAC786CA40}|Default">
+  <MonoDevelop.Ide.ItemProperties.Product-Discount-Calculator PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Display_Discount.cshtml">
+    <Files>
+      <File FileName="Models/Discount.cs" Line="10" Column="50" />
+      <File FileName="Controllers/HomeController.cs" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Views/Home/Display_Discount.cshtml" Line="19" Column="8" />
+      <File FileName="Models/ErrorViewModel.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Product-Discount-Calculator" expanded="True">
+            <Node name="Product-Discount-Calculator" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Display_Discount.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

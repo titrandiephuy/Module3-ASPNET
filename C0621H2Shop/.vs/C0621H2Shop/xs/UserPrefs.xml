@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{38321733-7EB8-4AE0-874D-E13B578AD1F5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="C0621H2Shop/Views/Product/Index.cshtml">
+    <Files>
+      <File FileName="C0621H2Shop/Views/Product/Index.cshtml" Line="77" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="C0621H2Shop" expanded="True">
+            <Node name="C0621H2Shop" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Product" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.C0621H2Shop PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

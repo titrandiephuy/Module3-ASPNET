@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{47E03380-2225-4CA5-B3EF-525228DBBCB4}|Default">
+  <MonoDevelop.Ide.ItemProperties.HelloWorld PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/Views/Student/Detail.cshtml">
+    <Files>
+      <File FileName="HelloWorld/Controllers/StudentController.cs" Line="1" Column="1" />
+      <File FileName="HelloWorld/Services/JsonStudentService.cs" Line="18" Column="1" />
+      <File FileName="HelloWorld/Views/Student/Detail.cshtml" Line="1" Column="1" />
+      <File FileName="HelloWorld/Views/Student/Student.cshtml" Line="18" Column="11" />
+      <File FileName="HelloWorld/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="HelloWorld/Views/_ViewImports.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HelloWorld" expanded="True">
+            <Node name="HelloWorld" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Student" expanded="True">
+                  <Node name="Detail.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

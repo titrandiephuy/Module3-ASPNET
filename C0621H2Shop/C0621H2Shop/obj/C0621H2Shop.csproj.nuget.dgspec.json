@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/titrandiephuy/Desktop/CodeGym/Module3/Exercises/C0621H2Shop/C0621H2Shop/C0621H2Shop.csproj": {}
+  },
+  "projects": {
+    "/Users/titrandiephuy/Desktop/CodeGym/Module3/Exercises/C0621H2Shop/C0621H2Shop/C0621H2Shop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/titrandiephuy/Desktop/CodeGym/Module3/Exercises/C0621H2Shop/C0621H2Shop/C0621H2Shop.csproj",
+        "projectName": "C0621H2Shop",
+        "projectPath": "/Users/titrandiephuy/Desktop/CodeGym/Module3/Exercises/C0621H2Shop/C0621H2Shop/C0621H2Shop.csproj",
+        "packagesPath": "/Users/titrandiephuy/.nuget/packages/",
+        "outputPath": "/Users/titrandiephuy/Desktop/CodeGym/Module3/Exercises/C0621H2Shop/C0621H2Shop/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/titrandiephuy/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Font.Awesome": {
+              "target": "Package",
+              "version": "[5.15.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Core": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿@model Calculate
+@{
+    ViewData["Title"] = "BMI Calculator";
+}
+<form method="post" asp-controller="BMI" asp-action="Calculate">
+    <div class="row">
+        <div class="form-group col-sm-4">
+            <label asp-for="Height">Enter Height (m)</label>
+            <input asp-for="Height" class="form-control" value="@Model.Height" autocomplete="off" />
+            <span asp-validation-for="Height" class="text-danger"></span>
+        </div>
+        <div class="form-group col-sm-4">
+            <label asp-for="Weight"> Enter Weight (kg)</label>
+            <input asp-for="Weight" class="form-control" value="@Model.Weight" />
+        </div>
+        <div class="form-group col-sm-4">
+            <label asp-for="Result"></label>
+            <input asp-for="Result" class="form-control" readonly value="@Model.Result" />
+        </div>
+    </div>
+    <div class="row">
+        <button type="submit" class="btn btn-danger">Calculate</button>
+    </div>
+</form>

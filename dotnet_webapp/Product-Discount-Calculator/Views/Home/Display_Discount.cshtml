@@ -1,0 +1,19 @@
+﻿@model Discount
+@{
+    ViewData["Title"] = "Display Discount";
+}
+<form method="post" asp-controller="Home" asp-action="Index">
+    <div>
+        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Return</a>
+    </div>
+    <div class="row">
+        <div class="form-group col-sm-4">
+            <label asp-for="DiscountAmount">Discount Amount</label>
+            <input asp-for="DiscountAmount" value="@Model.DiscountAmount" class="form-control" />
+        </div>
+        <div class="form-group col-sm-4">
+            <label asp-for="DiscountPrice">Discount Price</label>
+            <input asp-for="DiscountPrice" value="@Model.DiscountPrice" class="form-control" />
+        </div>
+    </div>
+</form>

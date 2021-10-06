@@ -1,0 +1,34 @@
+﻿@model Interest
+@{
+    ViewData["Title"] = "Future Value Calculator";
+}
+<form method="post" asp-controller="Home" asp-action="Index">
+    <div class="row">
+        <div class="form-group col-sm-3">
+            <label asp-for="InvestmentAmount">Investment Amount</label>
+            <input asp-for="InvestmentAmount" class="form-control" value="@Model.InvestmentAmount"/>
+            <span asp-validation-for="InvestmentAmount" class="text-danger"></span>
+        </div>
+        <div class="form-group col-sm-3">
+            <label asp-for="YearlyInterestRate">Yearly Interest Rate</label>
+            <input asp-for="YearlyInterestRate" class="form-control" value="@Model.YearlyInterestRate" />
+            <span asp-validation-for="InvestmentAmount" class="text-danger"></span>
+        </div>
+        <div class="form-group col-sm-3">
+            <label asp-for="NumberOfMonths">Number Of Months</label>
+            <input asp-for="NumberOfMonths" class="form-control" value="@Model.NumberOfMonths" />
+            <span asp-validation-for="InvestmentAmount" class="text-danger"></span>
+        </div>
+        <div class="form-group col-sm-3">
+            <label asp-for="Result">Result</label>
+            <input asp-for="Result" class="form-control" readonly value="@Model.Result" />
+            <span asp-validation-for="InvestmentAmount" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <button type="submit" class="btn btn-danger">Calculate</button>
+        </div>
+
+    </div>
+</form>

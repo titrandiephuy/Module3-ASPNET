@@ -1,0 +1,14 @@
+[
+  {
+    "StudentId": 1,
+    "Fullname": "Ralph Carver",
+    "Gender": "Occaecat officia eos",
+    "Dob": "1989-05-18T00:00:00"
+  },
+  {
+    "StudentId": 2,
+    "Fullname": "Wilma Wilcox",
+    "Gender": "Accusantium eius qui",
+    "Dob": "1977-05-16T00:00:00"
+  }
+]
